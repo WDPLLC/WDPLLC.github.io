@@ -34,15 +34,21 @@ body {
   color: #ddd; /* Color change on hover */
 }
 
-.hero h1 {
-  font-size: 55px;
-  font-weight: bolder;
-}
-
 .hero {
   margin-left: 100px;
   margin-right: 100px;
   padding: 10px 20px;
+}
+
+.hero h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 25px;
+  font-weight: light;
+  color: white;
 }
 
 .parallax-transition {
