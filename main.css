@@ -8,33 +8,48 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px;
   background-color: #1d4a74; /* Or any color you prefer */
   color: white;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .logo img {
   /* Adjust size as needed */
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
-  margin-left: 20px; /* Space between links */
-  font-size: 16px; /* Adjust as needed */
+  margin-left: 60px; /* Space between links */
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+  align-items: center;
 }
 
 .nav-links a:hover {
   color: #ddd; /* Color change on hover */
 }
 
+.hero h1 {
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.hero {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px 20px;
+}
+
 .parallax-transition {
   background-image: url("assets/images/banner.jpg");
 
   /* Full height */
-  height: 45vh;
+  height: 40vh;
 
   /* parallax scrolling effect */
   background-attachment: fixed;
