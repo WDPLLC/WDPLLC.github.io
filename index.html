@@ -30,10 +30,10 @@
         <img src="assets/images/wdp_logo.png" alt="Logo" />
       </div>
       <div class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+        <a onclick="scrollToSection('services')" href="#services">Services</a>
+        <a onclick="scrollToSection('Services')" href="#about">About</a>
+        <a onclick="scrollToSection('Services')" href="#gallery">Gallery</a>
+        <a onclick="scrollToSection('about')" href="#contact">Contact</a>
       </div>
     </div>
 
@@ -50,6 +50,9 @@
         <br />
         precision in every commercial project.
       </p>
+      <button onclick="scrollToSection('about')" class="callnow-button">
+        Start Today
+      </button>
     </div>
     <div class="parallax-transition">
       <div class="centered-box">
@@ -57,7 +60,7 @@
       </div>
     </div>
 
-    <div class="content">
+    <div class="content" id="services">
       <h1>This is your content</h1>
     </div>
 
@@ -77,6 +80,11 @@
         &#10095;
       </button>
     </div>
+    <div id="about">
+      <h2>About Us</h2>
+      <p>Information about your company or service...</p>
+    </div>
     <script src="carousel.js"></script>
+    <script src="scroll.js"></script>
   </body>
 </html>
