@@ -31,7 +31,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ddd; /* Color change on hover */
+  color: #14b2e2; /* Color change on hover */
 }
 
 .hero {
@@ -42,12 +42,12 @@ body {
 
 .hero h1 {
   font-size: 55px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .hero p {
   font-size: 25px;
-  font-weight: light;
+  font-weight: 100;
   color: white;
 }
 
