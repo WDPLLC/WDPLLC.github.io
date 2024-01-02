@@ -3,7 +3,6 @@ body {
   font-family: "Outfit";
   font-size: 22px;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -141,9 +140,38 @@ h1 {
   right: 0;
 }
 
-.content {
-  height: 200px;
-  background-color: #1d4a74;
+.content h1 {
+  font-size: 55px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+}
+
+.card {
+  background-color: #0a152f;
+  color: white;
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  width: 300px; /* Width of each card */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Additional styling for responsive behavior */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 #about {
