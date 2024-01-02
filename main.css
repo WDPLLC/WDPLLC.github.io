@@ -1,3 +1,74 @@
 body {
   background-color: #1d4a74;
+  font-family: "Outfit";
+  font-size: 22px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1d4a74; /* Or any color you prefer */
+  color: white;
+}
+
+.logo img {
+  /* Adjust size as needed */
+  width: 100px;
+  height: auto;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px; /* Space between links */
+  font-size: 16px; /* Adjust as needed */
+}
+
+.nav-links a:hover {
+  color: #ddd; /* Color change on hover */
+}
+
+.parallax-transition {
+  background-image: url("assets/images/banner.jpg");
+
+  /* Full height */
+  height: 45vh;
+
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+}
+
+.centered-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the box */
+  background-color: rgba(0, 0, 0, 0.705); /* Semi-transparent black */
+  color: white; /* Text color */
+  padding: 20px; /* Padding inside the box */
+  width: 50%; /* Width of the box */
+  text-align: center; /* Align text inside the box */
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.centered-box p {
+  margin: 0; /* Remove default paragraph margin */
+  /* Additional styling for your text */
+}
+
+.content {
+  height: 200px;
+  background-color: #1d4a74;
 }

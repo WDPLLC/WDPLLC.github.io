@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Parallax Demo</title>
-    <style>
-      .parallax {
-        /* The image used */
-        background-image: url("assets/images/banner.jpg");
-
-        /* Full height */
-        height: 100vh;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      .content {
-        height: 1500px; /* Just for demo purposes to make the page scrollable */
-        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wayne Denlinger Plumbing</title>
+    <link rel="shortcut icon" href="assets/images/wdp.ico" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Outfit"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="parallax"></div>
+    <div class="navbar">
+      <div class="logo">
+        <!-- Insert your logo image or text here -->
+        <img src="assets/images/wdp_logo.png" alt="Logo" />
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+    </div>
 
     <div class="content">
       <h1>This is your content</h1>
-      <p>More content here...</p>
+    </div>
+    <div class="parallax-transition">
+      <div class="centered-box">
+        <p>We Deliver On A Variery <br />Of Commercial Projects</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>This is your content</h1>
     </div>
   </body>
 </html>
